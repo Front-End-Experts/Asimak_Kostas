@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- This is the name of the page which appears on the tab. -->
+  <title>Grocery List</title>
+</head>
+<body>
+    <div>
+        <h1>Grocery List</h1>
+        <p>A basic grocery list to help you remember which foods to buy at the store.</p>
+    </div>
+    <div>
+        <p>This Essential Grocery List is a life saver on the busy weeks. The first step in cooking is gathering all of your ingredients, but you do not
+            <br>want to run out to the grocery store every single time you prepare a new recipe. Having a well-stocked pantry will make life in the kitchen
+            <br>so much simpler, because you will have most of what you need every time you cook. It’s so helpful to have a basic grocery list to help you
+            <hr>
+            <br>remember which foods to buy at the store. This food shopping list is my go-to! It’s better to stock up on things like grains, seasonings and
+            <br>spices, baking essentials, oils, condiments, canned and frozen foods, etc. so you can just grab them when you need them. These things have
+            <br>a long shelf life, so keep them in your kitchen for convenience. However, you do have to go the supermarket sometimes, and there’s a way to
+            <br>make that trip easy and hassle-free: Keep a grocery list! If you go in blindly, you’ll leave with things you don’t need, and nothing that actually
+            <br>helps you prepare a good meal. So what do you put on that list though? Well, I’ve got you covered! I created an easy grocery list filled with
+            <br>all of the essentials. Plus there’s a free printable version that you can take with you to the grocery store. It has everything you need to
+            <br>stock your pantry, your freezer, and your refrigerator.
+        </p>
+        <div>
+            <h3>What to Buy at the Grocery Store</h3>
+            <ul>
+                
+    <li><span style="color:blue;">Apples</span></li>
+    <li><span style="color:rgb(255, 240, 36);">Bananas</span</li>
+    <li><span style="color:rgb(194, 164, 32);">Strawberries</span</li>
+    <li><span style="color:rgb(0, 255, 200);">Avocados</span</li>
+    <li><span style="color:rgba(255, 60, 0, 0.438);">Bell Peppers</span</li>
+    <li><span style="color:rgb(202, 202, 202);">Carrots</span</li>
+    <li><span style="color:rgb(255, 251, 0);">Broccoli</span</li>
+    <li><span style="color:rgba(141, 141, 226, 0.404);">Garlic</span</li>
+    <li><span style="color:rgb(255, 0, 242);">Lemons/Limes</span</li>
+    <li><span style="color:rgb(0, 195, 255);">Onions</span</li>
+    <li><span style="color:rgb(207, 207, 228);">Parsley</span</li>
+    <li><span style="color:rgba(102, 255, 0, 0.473);">Cilantro</span</li>
+    <li><span style="color:rgb(212, 0, 255);">Basil</span</li>
+    <li><span style="color:rgb(228, 138, 153);">Potatoes</span</li>
+    <li><span style="color:rgb(255, 0, 128);">Spinach</span</li>
+    <li><span style="color:rgba(0, 0, 255, 0.404)117, 117, 121);">Tomatoes</span</li>
+
+            </ul>
+        </div>
+    </div>
+</body>

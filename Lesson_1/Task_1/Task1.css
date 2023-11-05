@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;}
+center {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    right: 20%;
+
+    ;
+}

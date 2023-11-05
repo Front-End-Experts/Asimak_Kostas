@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- This is the name of the page which appears on the tab. -->
+  <title>E-Newspaper</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- This is the navigation bar for my web page. -->
+<div><nav class="navbar navbar-expand-sm bg-light">
+
+    <div class="container-fluid p-1 text-right">
+      <!-- Links. -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sports</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Everyday</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Social</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Culture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Weather</a>
+          </li>
+      </ul>
+    </div>
+  
+  </nav>
+</div>
+<!-- This is the header of the page with the name of the web site. -->
+<div class="container-fluid p-4 bg-danger text-white text-left">
+  <h1>E-Newspaper</h1>
+  <p>Read the latest news from around world</p>
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <h2>World news</h2>
+  </div> <!-- End of row 1. -->
+
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="Bison.jpg" width="100%" height="auto">
+      <h3>Why grazing bison could be good for the planet</h3>
+      <p>American bison were hunted almost to extinction by European settlers. Now making a comeback, they could help reverse damage to prairies from decades of poor management.</p>
+      </div>
+    <div class="col-sm-4">
+      <img src="Japan temple.jpg" width="100%" height="auto">
+      <h3>Shukubo: The Japanese temples where you can sleep alongside monks</h3>
+      <p>There is perhaps no more immersive spiritual experience in Japan than spending the night at a Buddhist temple surrounded by monks.</p>
+      </div>
+    <div class="col-sm-4">
+      <img src="Streaming movies.jpg" width="100%" height="auto">
+      <h3>Why some streaming companies are leaning into adverts and raising prices</h3>        
+      <p>Consumers ditched cable so they didn't have to see commercials. Now, the adverts they hoped to escape are returning to streaming media. How did we get here?</p>
+      </div>
+  </div> <!-- End of row 2. -->
+  
+  <div class="row">
+    <h2>Earth</h2>
+    <div class="col-sm-4">
+      <img src="The Isle of Eigg.jpeg" width="100%" height="auto">
+      <h3>The Isle of Eigg: The community-owned island that powers itself</h3>
+      <p>Despite being one of the smallest Scottish islands with just 110 residents, the Isle of Eigg is a model of forward-thinking, sustainable, eco-conscious living.</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="Northern Michigan.jpg" width="100%" height="auto">
+      <h3>The Paulding Light: A US mystery you can see but not touch</h3>
+      <p>As night falls in Northern Michigan, crowds gather in a remote spot off US Highway 45. The reason? To see what might be the most punctual ghost in the world.</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="Al Gatto Verde in Modena Italy.jpg" width="100%" height="auto">
+      <h3>Massimo Bottura's new "Not Barbecue" restaurant</h3>
+      <p>Al Gatto Verde in Modena, Italy, redefines barbecue with a wood-burning oven, conceptual fire cooking techniques and passionately sustainable practices.</p>
+    </div>
+  </div> <!-- End of row 3. -->
+
+</div>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Rema, the Afrobeats star and Selena Gomez.jpg" alt="Rema is conquering the world" class="d-block img-fluid" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Rema</h3>
+        <p>Nigerian Afrobeats star Rema is conquering the world</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Touchscreen card device.jpg" alt="Inaccessible payment devices" class="d-block img-fluid" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Inaccessible payment devices</h3>
+        <p>Blind customers are being left "frustrated" and "embarrassed" by inaccessible payment devices</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="London.jpg" alt="London offbeat sites" class="d-block img-fluid" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Offbeat sites of London</h3>
+        <p>Parts of London you likely never knew existed</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<footer>
+  <p>Designer: Kostas Asimakopoulos <br> <a href="example@gmail.com">example@gmail.com</a></p>
+  <p>&copy; 2023 E-Newspaper</p>
+</footer>
+
+
+</body>
+</html>

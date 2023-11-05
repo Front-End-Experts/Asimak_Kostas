@@ -1,0 +1,19 @@
+<!DOCKTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <title>Kostas</title>
+</head>
+<body>
+    <!-- <nav><a href="Task1_page2.html">Secondary_Page</a></nav> This comment shows a way to link two pages. -->
+    <form action="Task1_page2.html">
+        <nav>
+            <!-- This line creates a usable button to work with. <input type="button" value="Next_Page" style="float: right;"></input> -->
+            <a href="Task1_page2.html"><input type="button" value="Next_Page" style="float: right;"></input></a>
+        </nav>
+    </form>
+    <h1>Home</h1>
+</body>
+</html>
